@@ -1,4 +1,4 @@
-# 📦 On Device(Apple-Intelligence Based) Image Editing Dataset (AIE-Dataset)
+# 📦 Apple-Intelligence Image Editing Dataset (AIE-Dataset)
 ### *Device-Aware On-Device Generative AI Edit Detection*
 
 <p align="center">
@@ -79,4 +79,32 @@ This dataset supports research in:
 
 ---
 
-## 📜 Licen
+## 📜 License
+- Original images from **pixel.com** (free license)  
+- Edited images released under **MIT**  
+
+---
+
+## 🤝 Citation
+```
+@dataset{AIE2025,
+  title={AIE-Dataset: Apple-Intelligence Based Image Editing Dataset},
+  author={Soumik, Mohd Farhan Israk},
+  year={2025},
+  url={https://github.com/your-username/your-repo}
+}
+```
+
+---
+
+## 🙌 Contributors
+- Mohd. Farhan Israk Soumik (SIUC)
+- WKM Mithsara(SIUC)
+- Abdur Rahman Bin Shahid, Ph.D.
+- Ahmed Imteaj, Ph.D.
+
+---
+
+## 📞 Contact
+- Email: **farhan.soumik@gmail.com**
+- Issues: GitHub Issues tab
