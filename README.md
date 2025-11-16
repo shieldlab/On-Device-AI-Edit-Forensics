@@ -1,4 +1,4 @@
-# 📦 Apple-Intelligence Image Editing Dataset (AIE-Dataset)
+# 📦 On Device(Apple-Intelligence Based) Image Editing Dataset (AIE-Dataset)
 ### *Device-Aware On-Device Generative AI Edit Detection*
 
 <p align="center">
