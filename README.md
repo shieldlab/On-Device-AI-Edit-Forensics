@@ -23,18 +23,18 @@ All original images were sourced legally from **pixel.com** and edited via on-de
 AIE-Dataset/
 ├── original/
 ├── macbook/
-│   ├── cleanup/
-│   ├── object_removal/
-│   └── background_fill/
+│   ├── Original Images
+│   ├── Edited Image
+│ 
 ├── iphone/
-│   ├── cleanup/
-│   ├── people_removal/
-│   └── object_removal/
+│   ├── Original Image
+│   ├── Edited Image
+│   
 ├── ipad/
-│   ├── cleanup/
-│   ├── object_removal/
-│   └── relighting/
-└── metadata.csv
+│   ├── Original Image
+│   ├── Edited Image
+│   
+
 ```
 
 ---
