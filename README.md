@@ -106,5 +106,5 @@ This dataset supports research in:
 ---
 
 ## 📞 Contact
-- Email: **farhan.soumik@gmail.com**
+- Email: **abdurrahmanbin.shahid@siu.edu**
 - Issues: GitHub Issues tab
