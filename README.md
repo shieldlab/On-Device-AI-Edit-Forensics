@@ -98,13 +98,14 @@ This dataset supports research in:
 ---
 
 ## 🙌 Contributors
-- Mohd. Farhan Israk Soumik (SIUC)
-- WKM Mithsara(SIUC)
-- Abdur Rahman Bin Shahid, Ph.D.
-- Ahmed Imteaj, Ph.D.
+-**Abdur Rahman Bin Shahid, Ph.D. (Southern Illinois University Carbondale) (principal Investigator)**
+-Ahmed Imteaj, Ph.D. (Florida Atlantic University)
+-Mohd. Farhan Israk Soumik (Southern Illinois University Carbondale)
+-WKM Mithsara(Southern Illinois University Carbondale)
+-Awal Ahmed Fime (Florida Atlantic University)
 
 ---
 
 ## 📞 Contact
-- Email: **abdurrahmanbin.shahid@siu.edu**
+- Email: **shahid@cs.siu.edu**
 - Issues: GitHub Issues tab
