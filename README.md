@@ -98,11 +98,11 @@ This dataset supports research in:
 ---
 
 ## 🙌 Contributors
--**Abdur Rahman Bin Shahid, Ph.D. (Southern Illinois University Carbondale) (principal Investigator)**
--Ahmed Imteaj, Ph.D. (Florida Atlantic University)
--Mohd. Farhan Israk Soumik (Southern Illinois University Carbondale)
--WKM Mithsara(Southern Illinois University Carbondale)
--Awal Ahmed Fime (Florida Atlantic University)
+- **Abdur Rahman Bin Shahid, Ph.D. (Southern Illinois University Carbondale) (principal Investigator)**
+- Ahmed Imteaj, Ph.D. (Florida Atlantic University)
+- Mohd. Farhan Israk Soumik (Southern Illinois University Carbondale)
+- WKM Mithsara(Southern Illinois University Carbondale)
+- Awal Ahmed Fime (Florida Atlantic University)
 
 ---
 
