@@ -80,7 +80,7 @@ This dataset supports research in:
 ---
 
 ## 📜 License
-- Original images from **pixel.com** (free license)  
+- Original images from **pexels.com** (free license)  
 - Edited images released under **MIT**  
 
 ---
