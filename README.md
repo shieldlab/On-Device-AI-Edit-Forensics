@@ -14,7 +14,7 @@
 
 ## 📌 Overview
 The **AIE-Dataset** is a curated dataset of images edited using **Apple Intelligence** on MacBook Pro, iPhone, and iPad.  
-All original images were sourced legally from **pixel.com** and edited via on-device generative AI tools (Cleanup, Object Removal, Fill, Scene Completion).
+All original images were sourced legally from **pexels.com** and edited via on-device generative AI tools (Cleanup, Object Removal, Fill, Scene Completion).
 
 ---
 
