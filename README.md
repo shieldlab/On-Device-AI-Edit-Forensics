@@ -88,11 +88,13 @@ This dataset supports research in:
 ## 🤝 Citation
 ```
 @dataset{AIE2025,
-  title={AIE-Dataset: Apple-Intelligence Based Image Editing Dataset},
-  author={Soumik, Mohd Farhan Israk},
-  year={2025},
-  url={https://github.com/your-username/your-repo}
+  title        = {AIE-Dataset: Apple Intelligence Based On-Device Image Editing Dataset},
+  author       = {Soumik, Mohd Farhan Israk and Shahid, Abdur Rahman Bin and Imteaj, Ahmed and Mithsara, WKM and Fime, Awal Ahmed},
+  year         = {2025},
+  url          = {https://github.com/shieldlab/On-Device-AI-Edit-Forensics},
+  note         = {Apple Intelligence On-Device Image Manipulation Dataset}
 }
+
 ```
 
 ---
