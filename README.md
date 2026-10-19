@@ -1,113 +1,41 @@
-# 📦 Apple-Intelligence Image Editing Dataset (AIE-Dataset)
-### *Device-Aware On-Device Generative AI Edit Detection*
+# Edits in the Wild — Project Page
 
-<p align="center">
-  <img src="https://img.shields.io/github/stars/your-username/your-repo?style=flat-square" />
-  <img src="https://img.shields.io/github/forks/your-username/your-repo?style=flat-square" />
-  <img src="https://img.shields.io/github/issues/your-username/your-repo?style=flat-square" />
-  <img src="https://img.shields.io/github/license/your-username/your-repo?style=flat-square" />
-  <img src="https://img.shields.io/badge/Dataset%20Size-~3K%20Images-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Devices-Macbook%20%7C%20iPhone%20%7C%20iPad-green?style=flat-square" />
-</p>
+Project page for **"Edits in the Wild: A Multilingual Benchmark for Localizing On-Device Generative Image Edits on Consumer Platforms"** (EMNLP 2026 Main Conference).
 
----
+A static site with no build step: `index.html`, plus images in `static/img/` and the poster in `static/pdf/`.
 
-## 📌 Overview
-The **AIE-Dataset** is a curated dataset of images edited using **Apple Intelligence** on MacBook Pro, iPhone, and iPad.  
-All original images were sourced legally from **pexels.com** and edited via on-device generative AI tools (Cleanup, Object Removal, Fill, Scene Completion).
+## Deploy on GitHub Pages
 
----
+1. Create a new public repository on GitHub, for example `edits-in-the-wild`.
+2. Upload everything in this folder to the repository root, including the hidden `.nojekyll` file:
+   ```bash
+   git init
+   git add .
+   git commit -m "Project page"
+   git branch -M main
+   git remote add origin https://github.com/<your-username>/edits-in-the-wild.git
+   git push -u origin main
+   ```
+3. On GitHub, open **Settings → Pages**. Under *Build and deployment*, choose **Deploy from a branch**, then **main** and **/ (root)**, and click **Save**.
+4. After a minute or two the page is live at `https://<your-username>.github.io/edits-in-the-wild/`.
 
-## 🛠 Dataset Structure
+## Before the camera-ready release
+
+In `index.html`, find the buttons with `href="#"` and the `(soon)` label. Point each one at its real link and delete the label:
+
+| Button  | What to link |
+|---------|--------------|
+| Paper   | ACL Anthology / PDF |
+| arXiv   | arXiv abstract page |
+| Code    | GitHub code repository |
+| Dataset | Dataset hosting (e.g. Hugging Face) |
+| Talk    | Recorded video |
+
+When the page has its final URL, point the poster's QR code at it too.
+
+## Local preview
+
+```bash
+python3 -m http.server 8000
+# open http://localhost:8000
 ```
-AIE-Dataset/
-├── original/
-├── macbook/
-│   ├── Original Images
-│   ├── Edited Image
-│ 
-├── iphone/
-│   ├── Original Image
-│   ├── Edited Image
-│   
-├── ipad/
-│   ├── Original Image
-│   ├── Edited Image
-│   
-
-```
-
----
-
-## 🎯 Motivation
-On-device generative AI leaves subtle forensic traces.  
-This dataset supports research in:
-- Real vs AI-edited detection  
-- Device attribution  
-- Edit localization  
-- VLM-based edit captioning  
-- Semantic edit detection  
-
----
-
-## 🔍 Types of Edits
-- Object Removal  
-- Cleanup / Dust / Blemish removal  
-- Background reconstruction  
-- Inpainting / Fill  
-- Scene completion  
-- Neural hallucinations  
-
----
-
-## 📚 Intended Use Cases
-- Image Forensics  
-- VLM Captioning  
-- Device Attribution  
-- Edit Localization  
-- Deep Learning Classification  
-
----
-
-## 🧪 Suggested Baselines
-| Task | Baselines |
-|------|-----------|
-| Real vs Edited | ResNet50, EfficientNet, Swin-T |
-| Device Attribution | Swin-B, Noiseprint++, NFA-ViT |
-| Edit Captioning | Qwen-VL, BLIP-2, LLaVA |
-| Localization | U-Net, SAM + forensic heatmap |
-
----
-
-## 📜 License
-- Original images from **pexels.com** (free license)  
-- Edited images released under **MIT**  
-
----
-
-## 🤝 Citation
-```
-@dataset{AIE2025,
-  title        = {AIE-Dataset: Apple Intelligence Based On-Device Image Editing Dataset},
-  author       = {Soumik, Mohd Farhan Israk and Shahid, Abdur Rahman Bin and Imteaj, Ahmed and Mithsara, WKM and Fime, Awal Ahmed},
-  year         = {2025},
-  url          = {https://github.com/shieldlab/On-Device-AI-Edit-Forensics},
-  note         = {Apple Intelligence On-Device Image Manipulation Dataset}
-}
-
-```
-
----
-
-## 🙌 Contributors
-- **Abdur Rahman Bin Shahid, Ph.D. (Southern Illinois University Carbondale) (principal Investigator)**
-- Ahmed Imteaj, Ph.D. (Florida Atlantic University)
-- Mohd. Farhan Israk Soumik (Southern Illinois University Carbondale)
-- WKM Mithsara(Southern Illinois University Carbondale)
-- Awal Ahmed Fime (Florida Atlantic University)
-
----
-
-## 📞 Contact
-- Email: **shahid@cs.siu.edu**
-- Issues: GitHub Issues tab
